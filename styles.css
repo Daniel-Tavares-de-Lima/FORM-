@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./IMG/pexels-fauxels-3184405.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100%;
+}
+
+.container{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 150px 0px 0px 200px;
+}
+
+.container h1{
+    color: #F50087;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.container h2{
+    color: #F57087;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.container p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+
+.email{
+    width: 450px;
+    height: 45px;
+    position: relative;
+    margin-bottom: 20px;
+    
+}
+
+.email input{
+    width: 450px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 40px;
+}
+
+.email input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.email i{
+    position: absolute;
+    top: 13px;
+    left: 10px;
+    font-size: 19px;
+    color: #F57087;
+}
+.password{
+    width: 450px;
+    height: 45px;
+    position: relative;
+    margin-bottom: 15px;
+}
+.password input{
+    width: 450px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 40px; 
+}
+
+.password input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.password i{
+    position: absolute;
+    top: 13px;
+    left: 10px;
+    font-size: 19px;
+    color: #F57087;
+}
+
+.sub-form{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-form input{
+    width: 30px;
+}
+
+.sub-form label{
+    margin-left: -210px;
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    cursor: text;
+}
+
+.sub-form a{
+    text-decoration: none;
+    color: white;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form button{
+    width: 100%;
+    height: 45px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #F57087;
+}
+
+form button:hover{
+    background-color: #F50087;
+    transform: scale(1.03);
+    transition: all 1s;
+}
+
+form button:not(hover){
+    transition: all 1s;
+    transform: scale(1);
+}
+
+form h5{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #adadad;
+    margin: 15px 0px;
+}
+
+form .icons{
+    display: flex;
+    width: 450px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+form .icons button:nth-child(1){
+    width: 80px;
+    height: 50px;
+    margin-left: 20px;
+    background-color: #0D7EC4;
+    color: white;
+}
+
+form .icons button:nth-child(2){
+    margin-left: 30px;
+    width: 80px;
+    height: 50px;
+    background-color: #E94335;
+    color: white;
+}
+
+form .icons button:nth-child(3){
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 80px;
+    height: 50px;
+    background-color: #00ACED;
+    color: white;
+    
+}
+
+form .icons button i{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.copy{
+    width: 450px;
+    text-align: center;
+}
+
+
+
+
+
